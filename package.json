@@ -1,0 +1,46 @@
+{
+  "name": "apkcli",
+  "version": "1.0.0",
+  "description": "My Personal Cli",
+  "bin": {
+    "apk": "src/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PremApk/My-CLI.git"
+  },
+  "keywords": [
+    "cli",
+    "apk",
+    "apk-cli",
+    "personal-cli",
+    "premapk",
+    "its_apk"
+  ],
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "author": {
+    "name": "Premkumar Arumugam",
+    "email": "a.premapk99@gmail.com",
+    "url": "https://github.com/PremApk"
+  },
+  "license": "CC0 1.0 Universal",
+  "bugs": {
+    "url": "https://github.com/PremApk/My-CLI/issues"
+  },
+  "homepage": "https://github.com/PremApk/My-CLI#readme",
+  "dependencies": {
+    "import-jsx": "^4.0.0",
+    "ink": "^3.0.8",
+    "ink-select-input": "^4.2.0",
+    "meow": "^9.0.0",
+    "node-banner": "^1.4.0",
+    "open": "^7.4.2",
+    "react": "^17.0.1"
+  },
+  "devDependencies": {}
+}
